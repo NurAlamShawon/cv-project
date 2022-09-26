@@ -254,7 +254,7 @@ hr{
 }
 
 .ending p{
-    rgb(180, 174, 174);
+   color: rgb(180, 174, 174);
 }
 .ending p:hover{
    color: rgb(58, 146, 112);
