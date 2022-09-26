@@ -26,7 +26,7 @@ header{
     }
     
 .name {
-    color:rgb(13, 28, 36);
+    color::black;
     float: left;
     font-size: 10px;
     padding: 10px;
@@ -35,11 +35,11 @@ header{
 
 }
 .name h1:hover{
-color: black;
+color: rgb(58, 146, 112);
 cursor: pointer;
 }
 .name h3:hover{
-    color: black;
+    color: rgb(58, 146, 112);
     cursor: pointer;
     }
     
@@ -51,12 +51,12 @@ cursor: pointer;
 }
 .number-email-info a{
 text-decoration: none;
-color:rgb(114, 132, 172) ;
+color:black ;
 padding-right: 10px;
 font-weight: bold;
 }
 .number-email-info a:hover{
-    color:black ;
+    color:rgb(58, 146, 112);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -243,14 +243,22 @@ hr{
 }
  .end a{
 
-    color: rgb(180, 174, 174);
+    color: rgb(58, 146, 112);
    text-decoration: none;
     }
+    
+    
+ .end a:hover{
+   color:rgb(58, 146, 112);
+   font-weight: lighter;
+   cursor:pointer;
+}
+
 .ending p{
     color:rgb(46, 61, 73)
 }
 .ending p:hover{
-   color: rgb(180, 174, 174);
+   color: rgb(58, 146, 112);
    font-weight: lighter;
     cursor:pointer;
 }
