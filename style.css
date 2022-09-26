@@ -1,0 +1,256 @@
+body{
+    background-color: rgb(161, 202, 214);
+}
+header{
+    background-color: rgb(64, 95, 107);
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+.image{
+    width: 140px;
+   height: 100px;
+   border: 1px solid white;
+   border-radius: 50% ;
+   float: left;
+   margin: 10px;
+  
+    }
+    
+.name {
+    color:rgb(13, 28, 36);
+    float: left;
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    
+
+}
+.name h1:hover{
+color: black;
+cursor: pointer;
+}
+.name h3:hover{
+    color: black;
+    cursor: pointer;
+    }
+    
+.number-email-info{
+    float: right;
+    padding-top: 15px;
+    font-size: 15px;
+    
+}
+.number-email-info a{
+text-decoration: none;
+color:rgb(114, 132, 172) ;
+padding-right: 10px;
+font-weight: bold;
+}
+.number-email-info a:hover{
+    color:black ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.div-close{
+    clear: both;
+}
+
+
+
+
+
+
+hr{
+    border: black 1px solid;
+}
+
+
+
+
+.common_hr{
+    border: solid black 1px;
+    border-bottom: none;
+    border-width: 100%;
+    margin: 2px auto ;
+}
+
+
+
+
+
+
+.right_div{
+    float: right;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+   padding-bottom: 40px;
+   
+    
+}
+
+
+
+
+.left_div{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+   padding-bottom: 40px;
+   color: rgb(13, 38, 49);
+  
+   
+   
+}
+
+
+
+
+
+
+
+
+.reference_right{
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-top: 40px;
+   padding-bottom: 40px;
+   
+    
+   
+}
+.reference_left{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+   
+    font-size: 15px;
+    padding-left: 390px;
+    padding-top: 40px;
+   padding-bottom: 40px;
+   
+}
+
+
+
+
+
+
+
+
+
+.left_div:hover{
+    color: rgb(58, 146, 112);
+    font-weight: lighter;
+    cursor:pointer;
+    }
+
+
+
+
+
+
+
+
+    
+
+.address_info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    padding-left:24%;
+    padding-top: 40px;
+   padding-bottom: 40px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.skill{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    padding-left:34.5%;
+    padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.edu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    padding-left:31%;
+    padding-top: 40px;
+   padding-bottom: 40px;
+}
+  
+
+
+
+ 
+
+
+
+
+
+
+.end{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(17, 5, 5);
+    
+    padding:25px;
+   text-align: center;
+   
+   
+}
+ .end a{
+
+    color: rgb(180, 174, 174);
+   text-decoration: none;
+    }
+.ending p{
+    color:rgb(46, 61, 73)
+}
+.ending p:hover{
+   color: rgb(180, 174, 174);
+   font-weight: lighter;
+    cursor:pointer;
+}
