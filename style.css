@@ -235,16 +235,15 @@ hr{
 .end{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:rgb(17, 5, 5);
-    
     padding:25px;
-   text-align: center;
+    text-align: center;
    
    
 }
  .end a{
 
-    color: rgb(58, 146, 112);
-   text-decoration: none;
+    color: rgb(180, 174, 174);
+    text-decoration: none;
     }
     
     
@@ -255,7 +254,7 @@ hr{
 }
 
 .ending p{
-    color:rgb(46, 61, 73)
+    rgb(180, 174, 174);
 }
 .ending p:hover{
    color: rgb(58, 146, 112);
