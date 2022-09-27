@@ -9,7 +9,9 @@ header{
 
 
 
-
+:root{
+    --color:rgb(58, 146, 112);
+}
 
 
 
@@ -34,12 +36,12 @@ header{
 
 }
 .name h1:hover{
-color: rgb(58, 146, 112);
+color: var(--color);
 cursor: pointer;
 font-weight:lighter;
 }
 .name h3:hover{
-    color: rgb(58, 146, 112);
+    color: var(--color);
     cursor: pointer;
     font-weight:lighter;
     }
@@ -57,7 +59,7 @@ padding-right: 10px;
 font-weight: bold;
 }
 .number-email-info a:hover{
-    color:rgb(58, 146, 112);
+    color:var(--color);
     text-decoration: none;
     font-weight: lighter;
     cursor: pointer;
@@ -117,7 +119,7 @@ hr{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: left;
     font-size: 20px;
-    padding-left: 20px;
+    padding-left: 2%;
     padding-top: 40px;
    padding-bottom: 40px;
    color: rgb(13, 38, 49);
@@ -147,9 +149,8 @@ hr{
 .reference_left{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: left;
-   
     font-size: 15px;
-    padding-left: 390px;
+    padding-left: 335px;
     padding-top: 40px;
    padding-bottom: 40px;
    
@@ -164,7 +165,7 @@ hr{
 
 
 .left_div:hover{
-    color: rgb(58, 146, 112);
+    color: var(--color);
     font-weight: lighter;
     cursor:pointer;
     }
@@ -181,7 +182,7 @@ hr{
 .address_info{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float:left;
-    padding-left:24%;
+    padding-left:250px;
     padding-top: 40px;
    padding-bottom: 40px;
 
@@ -201,7 +202,7 @@ hr{
 .skill{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float:left;
-    padding-left:34.5%;
+    padding-left:382px;
     padding-top: 40px;
    padding-bottom: 40px;
 }
@@ -219,7 +220,7 @@ hr{
 .edu{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float:left;
-    padding-left:31%;
+    padding-left:338px;
     padding-top: 40px;
    padding-bottom: 40px;
 }
@@ -250,7 +251,7 @@ hr{
     
     
  .end a:hover{
-   color:rgb(58, 146, 112);
+   color:var(--color);
    font-weight: lighter;
    cursor:pointer;
 }
@@ -259,7 +260,7 @@ hr{
    color: rgb(180, 174, 174);
 }
 .ending p:hover{
-   color: rgb(58, 146, 112);
+   color: var(--color);
    font-weight: lighter;
     cursor:pointer;
 }
